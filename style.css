@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    cursor: none;
+    background-color: #1f2121;
+}
+
+#hand {
+    position: absolute;
+    transition: 0.1s;
+}
+
+#hand img {
+    width: 100px;
+    height: 100px;
+    filter: drop-shadow(5px 5px 15px black);
+}
+
+#rat {
+    position: absolute;
+    transition: 0.1s;
+}
+
+#rat img {
+    width: 70px;
+    height: 70px;
+    filter: drop-shadow(5px 5px 15px black);
+}
